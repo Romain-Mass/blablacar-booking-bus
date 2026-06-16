@@ -31,7 +31,7 @@ async function Trips() {
 	}
 }
 
-function createTrip(img, departure, arrival, duration, price) {
+function createTrip(img, departure, arrival, time, duration, price) {
 	res.innerHTML = "";
 
 	const $tripCard = document.createElement("div");
